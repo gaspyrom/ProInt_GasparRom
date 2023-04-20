@@ -1,5 +1,6 @@
 .row{
     padding: 20px;
+    margin: 0%;
 }
 div{
     background-color:#a5d9ff ;
@@ -10,43 +11,34 @@ div{
     #fotoDePerfil{
         position: absolute;
         width: 15%;
-        border-radius: 50%;
+        border-radius: 100%;
         box-shadow: 3px 3px 3px grey;
         left: 3%;
         top: 600px;
     }
 }
-@media(min-width: 1031px){
+
+@media(min-width: 1014px){
     #fotoDePerfil{
         position: absolute;
         width: 10%;
-        border-radius: 50%;
+        border-radius: 100%;
         box-shadow: 3px 3px 3px grey;
         left: 3%;
         top: 600px;
-    
     }
 }
 @media(max-width: 575px){
     #fotoDePerfil{
-        position: absolute;
+        position:absolute;
         width: 25%;
         border-radius: 100%;
         box-shadow: 3px 3px 3px grey;
         left: 37%;
-        top: 617px;
+        top: 995px;
     }
 }
-@media(max-width: 449px){
-    #fotoDePerfil{
-        position: absolute;
-        width: 25%;
-        border-radius: 100%;
-        box-shadow: 3px 3px 3px grey;
-        left: 37%;
-        top: 700px;
-    }
-}
+
 
 
 /*nombre*/
